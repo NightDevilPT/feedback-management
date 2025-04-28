@@ -1,21 +1,6 @@
 import {
 	Home,
-	Briefcase,
 	User,
-	Users,
-	FileText,
-	Bookmark,
-	Mail,
-	Bell,
-	BarChart2,
-	Settings,
-	FileBadge,
-	GraduationCap,
-	Clock,
-	Star,
-	CreditCard,
-	Tag,
-	ClipboardList,
 	MessageSquare,
 } from "lucide-react";
 import { NavGroup } from "./nav-sidebar";
@@ -34,6 +19,11 @@ export const sidebarNavGroups: NavGroup[] = [
 				title: "Users",
 				url: "/users",
 				icon: User,
+			},
+			{
+				title: "Feedbacks",
+				url: "/feedbacks",
+				icon: MessageSquare,
 			},
 		],
 	},
